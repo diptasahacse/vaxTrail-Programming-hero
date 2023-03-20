@@ -123,7 +123,7 @@ const vaxTrail = (personList) => {
 
   // Let's sort according to even to odd number
   const getEvenSortedArray = (unsorted) => {
-    const sortedEvenArray = unsorted.sort((a = a, b) => {
+    const sortedEvenArray = unsorted.sort((a, b) => {
       if (a.age % 2 === 0 && b.age % 2 !== 0) {
         return -1;
       }
